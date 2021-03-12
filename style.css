@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine;
+}
+#titulo_principal{
+    text-align: center;
+}
+table, td, th, tr{
+    border: solid 1px;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+}
+table{
+    width: 100%;
+    background-color: coral;
+}
