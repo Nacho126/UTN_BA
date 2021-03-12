@@ -1,0 +1,17 @@
+body{
+    background-color: green;
+    margin-top: 75px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+div{
+    background-color: yellow;
+    height: 700px;
+    width: 700px;
+}
+svg{
+    width: 500px;
+    height: 500px;
+    padding: 100px;
+    fill: red;
+}
