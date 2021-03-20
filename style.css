@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+body{
+    background-color: cadetblue;
+    color:black;
+}
+@media (max-width:1000px){
+    #mainNav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+        background-color: white;
+        border-radius: 30px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #logo{
+        width: 50px;
+        height: 50px;
+    }
+    .navText{
+        margin: 5px;
+        color: black;
+        font-size: 20px;
+        padding: auto;
+    }
+    .navText:hover{
+        border-bottom: cadetblue solid 2px;
+    }
+    #navHome{
+        margin-left: 50px;
+    }
+    #navContact{
+        margin-right: 50px;
+    }
+    
+    #mainSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: cadetblue;
+        margin: 0px 100px;
+    
+    }
+    .columns{
+        margin: 5px;
+        background-color: white;
+        border-radius: 30px;
+        text-align: center;
+        padding: 7px;
+        padding-bottom: 0px;
+    
+    }
+    #leftColumn #rightColumn{
+        width: 800px;
+    }
+    #mainAside{
+        display: none;
+    }
+    img{
+        width: 100%;
+    }
+    img:hover{
+        cursor: pointer;
+    }
+    h4{
+        font-size: 15px;
+        color:rgba(51, 51, 50, 0.774);
+        font-style: italic;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h2:hover{
+        color:rgba(51, 51, 50, 0.842);
+        
+    }
+    #mainFooter{
+        background-color: white;
+        color: cadetblue;
+        text-align: center;
+        border-radius: 30px;
+    }
+    hr{
+        border: wh 1px dashed;
+    }
+}
+@media (min-width:1001px){
+#mainNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 7px 100px;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+.navText{
+    margin: 25px;
+    color: black;
+    font-size: 35px;
+}
+.navText:hover{
+    border-bottom: cadetblue solid 2px;
+}
+#navHome{
+    margin-left: 200px;
+}
+#navContact{
+    margin-right: 200px;
+}
+
+#mainSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: cadetblue;
+    margin: 0px 100px;
+
+}
+.columns{
+    margin: 5px;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 7px;
+    padding-bottom: 0px;
+
+}
+#leftColumn #rightColumn{
+    width: 800px;
+}
+#mainAside{
+    width: 300px;
+}
+img{
+    width: 100%;
+}
+img:hover{
+    cursor: pointer;
+}
+h4{
+    font-size: 20px;
+    color:rgba(51, 51, 50, 0.774);
+    font-style: italic;
+}
+h2{
+    font-size: 50px;
+}
+h2:hover{
+    color:rgba(51, 51, 50, 0.842);
+    
+}
+#mainFooter{
+    background-color: white;
+    color: cadetblue;
+    text-align: center;
+    border-radius: 30px;
+}
+hr{
+    border: wh 1px dashed;
+}
+}
